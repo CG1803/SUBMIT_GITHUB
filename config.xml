@@ -36,6 +36,7 @@
        	<variable name="APP_ID" value="1220987571576879" />
        	<variable name="APP_NAME" value="ZTProject" />
 	</plugin>
-
+	
+	<platform name="android" />
 	<engine name="android" />
 </widget>
