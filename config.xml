@@ -31,11 +31,11 @@
 	<plugin name="cordova-plugin-wkwebview-engine" />
 	<plugin name="cordova-plugin-x-socialsharing"/>
 	<plugin name="cordova-plugin-admob-free">
-       <variable name="ADMOB_APP_ID" value="ca-app-pub-5798376424259255~7481263643" />
-    </plugin>
+       	<variable name="ADMOB_APP_ID" value="ca-app-pub-5798376424259255~7481263643" />
+    	</plugin>
 	<plugin name="cordova-plugin-facebook4">
-       <variable name="APP_ID" value="1220987571576879" />
-       <variable name="APP_NAME" value="ZTProject" />
+       	<variable name="APP_ID" value="1220987571576879" />
+       	<variable name="APP_NAME" value="ZTProject" />
 	</plugin>
 
 	<engine name="android" />
