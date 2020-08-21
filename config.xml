@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.ZTProject.BSE18AFT" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>ZTProject</name>
+	<description>A terrorist attack truns bad when special forces tries to stop the terrorists.</description>
+	<author>HEG</author>
+
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+
+	<preference name="android-targetSdkVersion" value="28" />
+
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+	<preference name="PhoneGap-version" value="cli-9.0.0" />
+
+	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
+	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+
+
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="21" />
+	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+	<plugin name="cordova-plugin-x-socialsharing"/>
+	<plugin name="cordova-plugin-admob-free">
+       <variable name="ADMOB_APP_ID" value="ca-app-pub-5798376424259255~7481263643" />
+    </plugin>
+	<plugin name="cordova-plugin-facebook4">
+       <variable name="APP_ID" value="1220987571576879" />
+       <variable name="APP_NAME" value="ZTProject" />
+	</plugin>
+
+	<engine name="android" />
+</widget>
