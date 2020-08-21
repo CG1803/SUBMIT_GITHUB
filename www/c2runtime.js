@@ -33105,7 +33105,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.choose,
 	cr.behaviors.Platform.prototype.acts.SetVectorY,
 	cr.behaviors.Pin.prototype.acts.Unpin,
-	cr.plugins_.LocalStorage.prototype.acts.ClearStorage,
 	cr.plugins_.CordovaAdmobPro.prototype.acts.onlyLoadInterstitial,
 	cr.system_object.prototype.acts.SetLayerVisible,
 	cr.plugins_.LocalStorage.prototype.acts.CheckItemExists,
